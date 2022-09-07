@@ -6,9 +6,12 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "astro": "^1.0.0-rc.3"
+    "astro": "^1.1.6",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.4"
   }
 }
